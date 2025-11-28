@@ -79,6 +79,28 @@ def int_run():
     print("Product:", n1 * n2)
     print("Quotient:", n1 / n2)
 
+def if_info():
+    print("\n--- INFORMATION ABOUT IF / ELIF / ELSE ---")
+    print("These statements let your program make decisions.")
+    print("IF = checks a condition.")
+    print("ELIF = checks another condition if the first is false.")
+    print("ELSE = runs when all conditions are false.")
+    print("\nExample:")
+    print("age = 18")
+    print("if age >= 18:")
+    print("    print('Adult')")
+    print("else:")
+    print("    print('Minor')")
+def if_run():
+    print("\n--- RUNNING IF/ELIF/ELSE EXAMPLE ---")
+    age = int(input("Enter your age: "))
+
+    if age < 13:
+        print("You are a child.")
+    elif age < 20:
+        print("You are a teenager.")
+    else:
+        print("You are an adult.")
 
 def int_info():
     print("\n--- INFORMATION ABOUT int(input()) ---")
