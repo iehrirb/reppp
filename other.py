@@ -67,6 +67,24 @@ def submenu(info_func, run_func, title):
 
     input("\nPress Enter to continue...")
 
+def int_run():
+    print("\n--- RUNNING int(input()) EXAMPLE ---")
+
+    n1 = int(input("Enter first whole number: "))
+    n2 = int(input("Enter second whole number: "))
+
+    print("\n--- RESULTS ---")
+    print("Sum:", n1 + n2)
+    print("Difference:", n1 - n2)
+    print("Product:", n1 * n2)
+    print("Quotient:", n1 / n2)
+
+
+def int_info():
+    print("\n--- INFORMATION ABOUT int(input()) ---")
+    print("The int() function converts user input into a whole number (integer).")
+    print("Example: age = int(input('Enter age: '))")
+    print("If you type letters, the program will show an error.")
 
 
 while True:
